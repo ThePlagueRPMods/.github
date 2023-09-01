@@ -1,1 +1,36 @@
 class name limit: 35 characters total
+
+REPAIR KITS
+-----------
+The repairableWithKits[]={5,2}; sets what the item can be repaired with,
+in this case Duct Tape and Sewing kit 
+
+List of repair kits/items :
+1 = Weapon Repair Kit
+2 = Sewing kit
+3 = Leather Sewing Kit
+4 = Sharpening Stone
+5 = Duct Tape
+6 = Tyre Repair Kit
+7 = Electronic Repair Kit
+8 = Epoxy
+(9 dosnt exist for some reason 🤷‍♂️ )
+10 = Blowtorch
+
+The repairCosts[]={30,25}; part is how much of the quantity it uses of those kits to repair the item, again in this case because the item can be repaired with more than one item it goes in the order they are listed in repairableWithKits ,
+so in this example 30 of the Duct Tape and 25 of the Sewing kit.
+
+the lower the number the less it uses
+
+
+LOCKS
+-----
+"compatibleLocks" defines the tool that can lock an attachment in its slot
+1 = Screwdriver
+2 = Wrench
+3 = LugWrench
+4 = Pliers
+
+and then the item to be locked would have "lockType"
+CarWheels are lockType = 3;
+CarDoors are 2
