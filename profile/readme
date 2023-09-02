@@ -1,5 +1,18 @@
 class name limit: 35 characters total
 
+TypeList.CSV
+-------------
+list of all types in mod. Example:
+"Weapon","SKTP_W_Rifles_Origin12","Origin-12 Shotgun"
+"Mag","SKTP_W_Mags_Origin12_Drum","Origin-12 30rd Drum Mag"
+"Mag","SKTP_W_Mags_Origin12_15rnd","Origin-12 15rd Mag"
+"Suppressor","SKTP_W_Suppressor_Origin12","Origin-12 Suppressor"
+"Buttstock","SKTP_W_Stock_Origin12_SopMod","Origin-12 Improved Buttstock"
+"Buttstock","SKTP_W_Stock_Origin12","Origin-12 Standard Buttstock"
+"Weapon","SKTP_W_Pistols_NoxxicDeagle","'Anna' Engraved Desert Eagle"
+"Melee","SKTP_W_Melee_Blunt_BatZSW","Zombie Say What Bat"
+
+
 REPAIR KITS
 -----------
 The repairableWithKits[]={5,2}; sets what the item can be repaired with,
